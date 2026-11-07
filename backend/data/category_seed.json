@@ -1,0 +1,411 @@
+{
+  "Food & Dining": {
+    "keywords": [
+      "swiggy",
+      "zomato",
+      "dominos",
+      "mcdonald",
+      "kfc",
+      "pizza",
+      "burger",
+      "starbucks",
+      "cafe",
+      "restaurant",
+      "eatery",
+      "biryani",
+      "dhaba",
+      "haldiram",
+      "barbeque",
+      "food court",
+      "chai point",
+      "dunkin",
+      "subway",
+      "faasos",
+      "behrouz",
+      "eat sure",
+      "box8",
+      "hotel",
+      "vilas",
+      "bhavan",
+      "bhawan",
+      "tiffin",
+      "bakery",
+      "sweets",
+      "juice",
+      "canteen",
+      "foods",
+      "kitchen"
+    ],
+    "templates": [
+      "SWIGGY*ORDER{n}",
+      "UPI-ZOMATO-{n}@ok",
+      "DOMINOS PIZZA {n}",
+      "STARBUCKS COFFEE {n}",
+      "UPI/{n}/CAFE COFFEE DAY",
+      "MCDONALDS INDIA {n}",
+      "UPI-{n}-RESTAURANT PAYMENT",
+      "PURCHASE ANANDA VILAS HOTEL VIRUDHUNAGAR IN {n}",
+      "PURCHASE SRI KRISHNA BHAVAN CHENNAI IN {n}",
+      "PURCHASE HOTEL SARAVANA BHAVAN {n}",
+      "PURCHASE HOTEL ROYAL RESTAURANT {n}",
+      "PURCHASE NEW SWEETS AND BAKERY {n}",
+      "POS FRESH JUICE CENTRE {n}",
+      "UPI-{n}-TIFFIN CENTRE@oksbi",
+      "PURCHASE ANNAPURNA MESS CANTEEN {n}"
+    ]
+  },
+  "Groceries": {
+    "keywords": [
+      "bigbasket",
+      "grofers",
+      "blinkit",
+      "zepto",
+      "dmart",
+      "reliance fresh",
+      "more supermarket",
+      "grocery",
+      "spencer",
+      "nature basket",
+      "instamart",
+      "jiomart",
+      "vegetable",
+      "kirana"
+    ],
+    "templates": [
+      "BIGBASKET{n}",
+      "UPI-BLINKIT-{n}@ok",
+      "DMART AVENUE {n}",
+      "ZEPTO MARKETPLACE {n}",
+      "UPI/{n}/JIOMART",
+      "SWIGGY INSTAMART {n}",
+      "PURCHASE NILGIRIS SUPERMARKET CHENNAI IN {n}",
+      "PURCHASE KIRANA GENERAL STORES IN {n}",
+      "PURCHASE MORE RETAIL PUNE IN {n}"
+    ]
+  },
+  "Transport": {
+    "keywords": [
+      "uber",
+      "ola",
+      "rapido",
+      "metro",
+      "irctc",
+      "redbus",
+      "auto",
+      "taxi",
+      "cab",
+      "bmtc",
+      "dtc",
+      "namma metro",
+      "yulu",
+      "bounce"
+    ],
+    "templates": [
+      "UBER*TRIP{n}",
+      "UPI-OLACABS-{n}@ok",
+      "IRCTC RAIL {n}",
+      "RAPIDO BIKE {n}",
+      "UPI/{n}/METRO CARD RECHARGE",
+      "REDBUS TICKET {n}",
+      "PURCHASE CHENNAI METRO RAIL IN {n}",
+      "PURCHASE RAPIDO BIKE TAXI IN {n}"
+    ]
+  },
+  "Fuel": {
+    "keywords": [
+      "petrol",
+      "diesel",
+      "fuel",
+      "hpcl",
+      "iocl",
+      "bharat petroleum",
+      "shell",
+      "indian oil",
+      "petroleum",
+      "filling station",
+      "service station",
+      "bunk"
+    ],
+    "templates": [
+      "IOCL PETROL PUMP {n}",
+      "UPI-HPCL-{n}@ok",
+      "BHARAT PETROLEUM {n}",
+      "SHELL FUEL {n}",
+      "PURCHASE INDIAN OIL PETROL BUNK CHENNAI IN {n}",
+      "PURCHASE LAKSHMI KANTHAM SERVICE STATION CHENNAI IN {n}",
+      "PURCHASE HP PETROL PUMP HYDERABAD IN {n}"
+    ]
+  },
+  "Shopping": {
+    "keywords": [
+      "amazon",
+      "flipkart",
+      "myntra",
+      "ajio",
+      "meesho",
+      "nykaa",
+      "reliance digital",
+      "croma",
+      "lifestyle",
+      "shoppers stop",
+      "decathlon",
+      "ikea",
+      "h&m",
+      "zara",
+      "textiles",
+      "jewellers",
+      "jewellery",
+      "thangamaligai",
+      "silks",
+      "electronics",
+      "life style"
+    ],
+    "templates": [
+      "AMAZON.IN{n}",
+      "UPI-FLIPKART-{n}@ok",
+      "MYNTRA DESIGNS {n}",
+      "AJIO PVT LTD {n}",
+      "UPI/{n}/MEESHO",
+      "NYKAA E-RETAIL {n}",
+      "PURCHASE LIFE STYLE CHENNAI IN {n}",
+      "PURCHASE RELIANCE TRENDS CHENNAI IN {n}",
+      "PURCHASE POTHYS TEXTILES CHENNAI IN {n}",
+      "PURCHASE G R THANGAMALIGAI CHENNAI IN {n}",
+      "PURCHASE CROMA ELECTRONICS BANGALORE IN {n}",
+      "PURCHASE SHOPPERS STOP MUMBAI IN {n}"
+    ]
+  },
+  "Bills & Utilities": {
+    "keywords": [
+      "electricity",
+      "airtel",
+      "jio",
+      "vodafone",
+      "vi ",
+      "broadband",
+      "wifi",
+      "gas bill",
+      "water bill",
+      "bescom",
+      "tneb",
+      "power bill",
+      "recharge",
+      "postpaid",
+      "dth",
+      "tata sky",
+      "act fibernet"
+    ],
+    "templates": [
+      "UPI-AIRTEL-{n}@ok",
+      "BESCOM BILLPAY {n}",
+      "JIO RECHARGE {n}",
+      "TATA SKY DTH {n}",
+      "ACT FIBERNET {n}",
+      "UPI/{n}/ELECTRICITY BOARD",
+      "PURCHASE TNEB ELECTRICITY BILL IN {n}",
+      "PURCHASE AIRTEL BROADBAND IN {n}"
+    ]
+  },
+  "Rent": {
+    "keywords": [
+      "rent",
+      "landlord",
+      "housing.com rent",
+      "nobroker",
+      "rentpay"
+    ],
+    "templates": [
+      "NEFT RENT PAYMENT {n}",
+      "UPI-{n}-HOUSE RENT",
+      "RENTPAY NOBROKER {n}"
+    ]
+  },
+  "Entertainment": {
+    "keywords": [
+      "netflix",
+      "hotstar",
+      "prime video",
+      "spotify",
+      "bookmyshow",
+      "pvr",
+      "inox",
+      "youtube premium",
+      "sony liv",
+      "zee5",
+      "gaana",
+      "wynk"
+    ],
+    "templates": [
+      "NETFLIX.COM{n}",
+      "UPI-BOOKMYSHOW-{n}@ok",
+      "PVR CINEMAS {n}",
+      "SPOTIFY AB {n}",
+      "AMAZON PRIME VIDEO {n}",
+      "HOTSTAR DISNEY {n}",
+      "PURCHASE PVR CINEMAS CHENNAI IN {n}",
+      "PURCHASE INOX MULTIPLEX HYDERABAD IN {n}"
+    ]
+  },
+  "Healthcare": {
+    "keywords": [
+      "pharmacy",
+      "apollo",
+      "medplus",
+      "hospital",
+      "clinic",
+      "diagnostic",
+      "netmeds",
+      "1mg",
+      "practo",
+      "medical store",
+      "doctor",
+      "labs"
+    ],
+    "templates": [
+      "APOLLO PHARMACY {n}",
+      "UPI-1MG-{n}@ok",
+      "MEDPLUS HEALTH {n}",
+      "PRACTO CONSULT {n}",
+      "UPI/{n}/DIAGNOSTIC CENTRE",
+      "PURCHASE APOLLO PHARMACY CHENNAI IN {n}",
+      "PURCHASE CITY MEDICAL STORE IN {n}",
+      "PURCHASE LAKSHMI CLINIC AND LABS IN {n}"
+    ]
+  },
+  "Investments": {
+    "keywords": [
+      "zerodha",
+      "groww",
+      "upstox",
+      "mutual fund",
+      "sip",
+      "coin",
+      "kite",
+      "nps",
+      "icici direct",
+      "paytm money",
+      "smallcase"
+    ],
+    "templates": [
+      "ZERODHA BROKING {n}",
+      "UPI-GROWW-{n}@ok",
+      "SIP MUTUAL FUND {n}",
+      "UPSTOX SEC {n}"
+    ]
+  },
+  "Income": {
+    "keywords": [
+      "salary",
+      "neft cr",
+      "imps cr",
+      "income",
+      "payroll",
+      "reimbursement",
+      "refund",
+      "interest credit",
+      "bonus"
+    ],
+    "templates": [
+      "SALARY CREDIT {n}",
+      "NEFT-SALARY-{n}",
+      "IMPS/{n}/PAYROLL",
+      "INTEREST CREDIT {n}"
+    ]
+  },
+  "Transfers (P2P/UPI)": {
+    "keywords": [
+      "upi-",
+      "paytm",
+      "phonepe",
+      "gpay",
+      "google pay",
+      "sent to",
+      "received from",
+      "p2p",
+      "imps",
+      "neft",
+      "rtgs"
+    ],
+    "templates": [
+      "UPI-{n}-friend@oksbi",
+      "PHONEPE TRANSFER {n}",
+      "GPAY-{n}@okaxis",
+      "IMPS/{n}/TO A/C"
+    ]
+  },
+  "Travel": {
+    "keywords": [
+      "makemytrip",
+      "goibibo",
+      "airbnb",
+      "oyo",
+      "indigo",
+      "spicejet",
+      "air india",
+      "yatra",
+      "cleartrip",
+      "vistara",
+      "ixigo",
+      "travenues",
+      "abhibus",
+      "easemytrip"
+    ],
+    "templates": [
+      "MAKEMYTRIP{n}",
+      "UPI-OYO-{n}@ok",
+      "INDIGO AIRLINES {n}",
+      "AIRBNB PAYMENTS {n}",
+      "UPI/{n}/LE TRAVENUES TECHNOLOGY PRIVATE LTD/IXIGO@AXISBANK",
+      "UPI-ABHIBUS-{n}@ok",
+      "UPI-EASEMYTRIP-{n}@ok"
+    ]
+  },
+  "Subscriptions": {
+    "keywords": [
+      "subscription",
+      "prime membership",
+      "linkedin premium",
+      "google one",
+      "icloud",
+      "microsoft 365",
+      "adobe",
+      "chatgpt",
+      "claude.ai"
+    ],
+    "templates": [
+      "GOOGLE ONE {n}",
+      "UPI-ADOBE-{n}@ok",
+      "MICROSOFT365 {n}",
+      "LINKEDIN PREMIUM {n}"
+    ]
+  },
+  "Cash & ATM": {
+    "keywords": [
+      "atm wdl",
+      "cash withdrawal",
+      "atm cash",
+      "self withdrawal"
+    ],
+    "templates": [
+      "ATM WDL {n}",
+      "CASH WITHDRAWAL ATM {n}",
+      "SELF ATM CASH {n}"
+    ]
+  },
+  "Others": {
+    "keywords": [
+      "misc",
+      "charges",
+      "fee",
+      "penalty",
+      "gst",
+      "annual charge"
+    ],
+    "templates": [
+      "MISC CHARGES {n}",
+      "ANNUAL FEE {n}",
+      "GST CHARGE {n}",
+      "BANK PENALTY {n}"
+    ]
+  }
+}

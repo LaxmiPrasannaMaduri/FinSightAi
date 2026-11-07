@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+storage/*.db
+backend/ml/model.joblib
+backend/ml/vectorizer.joblib
+backend/ml/labels.json
+.venv/
+venv/
+*.egg-info/
+.DS_Store
+backend/ml/meta.json
